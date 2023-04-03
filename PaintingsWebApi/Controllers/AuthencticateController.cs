@@ -58,6 +58,7 @@ namespace PaintingsWebApi.Controllers
             return Unauthorized();
         }
 
+
         [HttpPost]
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
